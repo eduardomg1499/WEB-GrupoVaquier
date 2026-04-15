@@ -23,12 +23,12 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0 bg-black">
         <img 
-          src="https://images.unsplash.com/photo-1584308972272-9e4e7685e80f?q=80&w=2070&auto=format&fit=crop" 
+          src="https://raw.githubusercontent.com/eduardomg1499/img-web-GrupoVaquier/main/2.jpg" 
           alt="Fondo de seda negra elegante" 
-          className="w-full h-full object-cover grayscale contrast-[1.3] brightness-[0.8]"
+          className="w-full h-full object-cover opacity-50"
           referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-carbon via-carbon/20 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-carbon via-carbon/60 to-transparent"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col items-center text-center">
@@ -57,7 +57,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.6 }}
-          className="flex flex-col sm:flex-row gap-6 items-center"
+          className="flex flex-col sm:flex-row gap-5 sm:gap-6 items-center mt-4 sm:mt-8"
         >
           <button 
             onClick={scrollToContact}
@@ -68,7 +68,7 @@ export function Hero() {
           </button>
           
           <a 
-            href="https://wa.me/525561257703" 
+            href="https://wa.me/525562038498?text=Hola%20Grupo%20Vaquier,%20me%20gustaria%20cotizar%20un%20evento..." 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-sm uppercase tracking-widest text-silver hover:text-terracotta transition-colors border-b border-transparent hover:border-terracotta pb-1"
@@ -80,7 +80,7 @@ export function Hero() {
 
       {/* Scroll Indicator */}
       <motion.div 
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50"
+        className="hidden sm:flex absolute bottom-10 left-1/2 -translate-x-1/2 flex-col items-center gap-2 opacity-50"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
