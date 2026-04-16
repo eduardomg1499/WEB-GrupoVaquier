@@ -23,12 +23,12 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0 bg-black">
         <img 
-          src="https://raw.githubusercontent.com/eduardomg1499/img-web-GrupoVaquier/main/2.jpg" 
-          alt="Fondo de seda negra elegante" 
-          className="w-full h-full object-cover opacity-50"
+          src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop" 
+          alt="Decoración floral elegante para eventos" 
+          className="w-full h-full object-cover opacity-40"
           referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-carbon via-carbon/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-carbon via-carbon/70 to-transparent"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col items-center text-center">
