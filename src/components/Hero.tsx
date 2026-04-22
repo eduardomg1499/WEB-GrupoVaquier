@@ -19,7 +19,7 @@ export function Hero() {
   };
 
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0 bg-black">
         <img 
@@ -31,14 +31,14 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-carbon via-carbon/70 to-transparent"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col items-center text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col items-center text-center -mt-16 md:-mt-20">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
           <p className="text-terracotta text-sm md:text-base uppercase tracking-[0.3em] font-semibold mb-6">
-            Organizacion & Consultoria
+            Organización & Consultoría
           </p>
         </motion.div>
 
@@ -50,7 +50,7 @@ export function Hero() {
         >
           Creamos momentos <br className="hidden md:block" />
           <span className="italic text-silver/90">inolvidables</span>, <br className="hidden md:block" />
-          sin estres para ti.
+          sin estrés para ti.
         </motion.h1>
 
         <motion.div
@@ -68,7 +68,7 @@ export function Hero() {
           </button>
           
           <a 
-            href="https://wa.me/525562038498?text=Hola%20Grupo%20Vaquier,%20me%20gustaria%20cotizar%20un%20evento..." 
+            href="https://wa.me/525562038498?text=Hola%20Grupo%20Vaquier,%20me%20gustaría%20cotizar%20un%20evento..." 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-sm uppercase tracking-widest text-silver hover:text-terracotta transition-colors border-b border-transparent hover:border-terracotta pb-1"

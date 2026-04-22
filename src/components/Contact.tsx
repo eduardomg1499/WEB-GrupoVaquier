@@ -45,11 +45,11 @@ export function Contact() {
           {/* Contact Info */}
           <div className="lg:w-1/3">
             <p className="text-terracotta text-sm uppercase tracking-[0.2em] font-semibold mb-4">Contacto</p>
-            <h2 className="text-4xl md:text-5xl font-serif font-light mb-8">Hablemos de tu proximo proyecto.</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-light mb-8">Hablemos de tu próximo proyecto.</h2>
             
             <div className="space-y-8 mb-12">
               <div>
-                <h4 className="text-xs uppercase tracking-widest text-silver/50 mb-2">Telefono / WhatsApp</h4>
+                <h4 className="text-xs uppercase tracking-widest text-silver/50 mb-2">Teléfono / WhatsApp</h4>
                 <a href="https://wa.me/525562038498" target="_blank" rel="noopener noreferrer" className="text-xl font-serif hover:text-terracotta transition-colors flex items-center gap-3">
                   <Phone size={20} className="text-terracotta" />
                   55 6203 8498
@@ -60,28 +60,19 @@ export function Contact() {
                 <h4 className="text-xs uppercase tracking-widest text-silver/50 mb-2">Bolsa de Trabajo</h4>
                 <a href="mailto:grupovaquier@gmail.com" className="text-lg hover:text-terracotta transition-colors flex items-center gap-3">
                   <Mail size={20} className="text-terracotta" />
-                  Unete a nuestro equipo
+                  Únete a nuestro equipo
                 </a>
               </div>
             </div>
 
             <div>
-              <h4 className="text-xs uppercase tracking-widest text-silver/50 mb-4">Siguenos</h4>
+              <h4 className="text-xs uppercase tracking-widest text-silver/50 mb-4">Síguenos</h4>
               <div className="flex gap-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-gray-dark flex items-center justify-center hover:bg-terracotta hover:text-white transition-colors">
+                <a href="https://www.facebook.com/share/1FvRt6kzYv/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-dark flex items-center justify-center hover:bg-terracotta hover:text-white transition-colors">
                   <Facebook size={18} />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-gray-dark flex items-center justify-center hover:bg-terracotta hover:text-white transition-colors">
-                  <Youtube size={18} />
-                </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-gray-dark flex items-center justify-center hover:bg-terracotta hover:text-white transition-colors">
-                  <Linkedin size={18} />
-                </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-gray-dark flex items-center justify-center hover:bg-terracotta hover:text-white transition-colors">
+                <a href="https://www.instagram.com/grupovaquier?igsh=emR3MmNuYjZwOTgw&utm_source=qr" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-dark flex items-center justify-center hover:bg-terracotta hover:text-white transition-colors">
                   <Instagram size={18} />
-                </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-gray-dark flex items-center justify-center hover:bg-terracotta hover:text-white transition-colors">
-                  <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-music-2"><circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/></svg>
                 </a>
               </div>
             </div>
@@ -96,11 +87,11 @@ export function Contact() {
             transition={{ duration: 0.6 }}
           >
             <div className="mb-8">
-              <h3 className="text-sm uppercase tracking-widest text-silver/80 mb-2">Asesor Autorizado de Ventas te contactara para confirmar tu evento y checar los detalles.</h3>
+              <h3 className="text-sm uppercase tracking-widest text-silver/80 mb-2">Asesor Autorizado de Ventas te contactará para confirmar tu evento y checar los detalles.</h3>
             </div>
 
             <motion.form layout onSubmit={handleSubmit} className="space-y-6">
-              {/* Configuracion de FormSubmit para AJAX */}
+              {/* Configuración de FormSubmit para AJAX */}
               <input type="hidden" name="_subject" value="Nueva solicitud de evento - Grupo Vaquier" />
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_captcha" value="false" />
@@ -137,19 +128,19 @@ export function Contact() {
               </div>
 
               <div className="space-y-2">
-                <label className="text-xs text-silver/70 ml-1">Correo electronico</label>
+                <label className="text-xs text-silver/70 ml-1">Correo electrónico</label>
                 <input 
                   type="email" 
                   name="Email" 
                   required 
                   maxLength={100}
-                  placeholder="Correo electronico" 
+                  placeholder="Correo electrónico" 
                   className="w-full bg-white text-carbon px-4 py-3 rounded outline-none focus:ring-2 focus:ring-terracotta transition-shadow" 
                 />
               </div>
 
               <div className="space-y-2">
-                <label className="text-xs text-silver/70 ml-1">Telefono</label>
+                <label className="text-xs text-silver/70 ml-1">Teléfono</label>
                 <input 
                   type="tel" 
                   name="Telefono" 
@@ -170,7 +161,7 @@ export function Contact() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="text-xs text-silver/70 ml-1">Numero de personas</label>
+                  <label className="text-xs text-silver/70 ml-1">Número de personas</label>
                   <input 
                     type="number" 
                     name="Numero_de_personas" 
@@ -202,7 +193,7 @@ export function Contact() {
                   <input type="time" name="Horario_inicio" className="w-full bg-white text-carbon px-4 py-3 rounded outline-none focus:ring-2 focus:ring-terracotta transition-shadow" />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-xs text-silver/70 ml-1">Horario de finalizacion</label>
+                  <label className="text-xs text-silver/70 ml-1">Horario de finalización</label>
                   <input type="time" name="Horario_fin" className="w-full bg-white text-carbon px-4 py-3 rounded outline-none focus:ring-2 focus:ring-terracotta transition-shadow" />
                 </div>
               </div>
@@ -221,7 +212,7 @@ export function Contact() {
                     value={mensaje}
                     onChange={(e) => setMensaje(e.target.value)}
                     maxLength={500}
-                    placeholder="Escribe aqui los detalles de tu evento... (max. 500 caracteres)" 
+                    placeholder="Escribe aquí los detalles de tu evento... (máx. 500 caracteres)" 
                     className="col-start-1 row-start-1 w-full h-full bg-white text-carbon px-4 py-3 rounded outline-none focus:ring-2 focus:ring-terracotta transition-shadow resize-none overflow-hidden text-base"
                   />
                 </div>

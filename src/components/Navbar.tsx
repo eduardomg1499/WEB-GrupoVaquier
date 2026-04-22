@@ -71,9 +71,9 @@ export function Navbar() {
             </button>
             <div className="absolute top-full left-0 mt-4 w-64 bg-carbon border border-gray-dark rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 overflow-hidden">
               <div className="p-2 flex flex-col">
-                <button onClick={() => scrollToSection('servicios')} className="text-left px-4 py-3 text-sm hover:bg-gray-dark hover:text-terracotta rounded transition-colors">Organizacion Integral</button>
-                <button onClick={() => scrollToSection('servicios')} className="text-left px-4 py-3 text-sm hover:bg-gray-dark hover:text-terracotta rounded transition-colors">Coordinacion "Dia B"</button>
-                <button onClick={() => scrollToSection('servicios')} className="text-left px-4 py-3 text-sm hover:bg-gray-dark hover:text-terracotta rounded transition-colors">Coordinacion On-site / Logistica</button>
+                <button onClick={() => scrollToSection('servicios')} className="text-left px-4 py-3 text-sm hover:bg-gray-dark hover:text-terracotta rounded transition-colors">Organización Integral</button>
+                <button onClick={() => scrollToSection('servicios')} className="text-left px-4 py-3 text-sm hover:bg-gray-dark hover:text-terracotta rounded transition-colors">Coordinación "Día B"</button>
+                <button onClick={() => scrollToSection('servicios')} className="text-left px-4 py-3 text-sm hover:bg-gray-dark hover:text-terracotta rounded transition-colors">Coordinación On-site / Logística</button>
               </div>
             </div>
           </div>
@@ -83,17 +83,17 @@ export function Navbar() {
               className="text-sm uppercase tracking-widest hover:text-terracotta transition-colors flex items-center gap-1"
               onClick={() => scrollToSection('consultoria')}
             >
-              Consultoria Turistica <ChevronDown size={14} className="group-hover:rotate-180 transition-transform duration-300" />
+              Consultoría Turística <ChevronDown size={14} className="group-hover:rotate-180 transition-transform duration-300" />
             </button>
             <div className="absolute top-full left-0 mt-4 w-64 bg-carbon border border-gray-dark rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 overflow-hidden">
               <div className="p-2 flex flex-col">
-                <button onClick={() => scrollToSection('consultoria')} className="text-left px-4 py-3 text-sm hover:bg-gray-dark hover:text-terracotta rounded transition-colors">Planificacion de Proyectos</button>
-                <button onClick={() => scrollToSection('consultoria')} className="text-left px-4 py-3 text-sm hover:bg-gray-dark hover:text-terracotta rounded transition-colors">Diseno de Rutas y Experiencias</button>
+                <button onClick={() => scrollToSection('consultoria')} className="text-left px-4 py-3 text-sm hover:bg-gray-dark hover:text-terracotta rounded transition-colors">Planificación de Proyectos</button>
+                <button onClick={() => scrollToSection('consultoria')} className="text-left px-4 py-3 text-sm hover:bg-gray-dark hover:text-terracotta rounded transition-colors">Diseño de Rutas y Experiencias</button>
               </div>
             </div>
           </div>
 
-          <button onClick={() => scrollToSection('nosotros')} className="text-sm uppercase tracking-widest hover:text-terracotta transition-colors">Quienes Somos</button>
+          <button onClick={() => scrollToSection('nosotros')} className="text-sm uppercase tracking-widest hover:text-terracotta transition-colors">Quiénes Somos</button>
           
           <button 
             onClick={() => scrollToSection('contacto')} 
@@ -140,9 +140,9 @@ export function Navbar() {
                       exit={{ opacity: 0, height: 0 }}
                       className="pl-4 flex flex-col gap-2 pt-2 overflow-hidden"
                     >
-                      <button onClick={() => scrollToSection('servicios')} className="text-left text-sm py-2 text-silver/80">Organizacion Integral</button>
-                      <button onClick={() => scrollToSection('servicios')} className="text-left text-sm py-2 text-silver/80">Coordinacion "Dia B"</button>
-                      <button onClick={() => scrollToSection('servicios')} className="text-left text-sm py-2 text-silver/80">Coordinacion On-site / Logistica</button>
+                      <button onClick={() => scrollToSection('servicios')} className="text-left text-sm py-2 text-silver/80">Organización Integral</button>
+                      <button onClick={() => scrollToSection('servicios')} className="text-left text-sm py-2 text-silver/80">Coordinación "Día B"</button>
+                      <button onClick={() => scrollToSection('servicios')} className="text-left text-sm py-2 text-silver/80">Coordinación On-site / Logística</button>
                     </motion.div>
                   )}
                 </AnimatePresence>
@@ -153,7 +153,7 @@ export function Navbar() {
                   onClick={() => toggleDropdown('consultoria')} 
                   className="w-full text-left text-sm uppercase tracking-widest py-2 border-b border-gray-dark/50 flex justify-between items-center"
                 >
-                  Consultoria Turistica
+                  Consultoría Turística
                   <ChevronDown size={16} className={`transition-transform duration-300 ${activeDropdown === 'consultoria' ? 'rotate-180' : ''}`} />
                 </button>
                 <AnimatePresence>
@@ -164,14 +164,14 @@ export function Navbar() {
                       exit={{ opacity: 0, height: 0 }}
                       className="pl-4 flex flex-col gap-2 pt-2 overflow-hidden"
                     >
-                      <button onClick={() => scrollToSection('consultoria')} className="text-left text-sm py-2 text-silver/80">Planificacion de Proyectos</button>
-                      <button onClick={() => scrollToSection('consultoria')} className="text-left text-sm py-2 text-silver/80">Diseno de Rutas y Experiencias</button>
+                      <button onClick={() => scrollToSection('consultoria')} className="text-left text-sm py-2 text-silver/80">Planificación de Proyectos</button>
+                      <button onClick={() => scrollToSection('consultoria')} className="text-left text-sm py-2 text-silver/80">Diseño de Rutas y Experiencias</button>
                     </motion.div>
                   )}
                 </AnimatePresence>
               </div>
 
-              <button onClick={() => scrollToSection('nosotros')} className="text-left text-sm uppercase tracking-widest py-2 border-b border-gray-dark/50">Quienes Somos</button>
+              <button onClick={() => scrollToSection('nosotros')} className="text-left text-sm uppercase tracking-widest py-2 border-b border-gray-dark/50">Quiénes Somos</button>
               <button onClick={() => scrollToSection('contacto')} className="text-left text-sm uppercase tracking-widest py-2 text-terracotta">Contacto</button>
             </div>
           </motion.div>

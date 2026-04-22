@@ -23,18 +23,18 @@ export function Services() {
             <Crown size={40} className="text-terracotta mb-6" strokeWidth={1.5} />
             <h3 className="text-xl font-serif mb-4 uppercase tracking-wider">Eventos Grandes</h3>
             <p className="text-silver/70 text-sm mb-6 leading-relaxed">
-              XV anos, Bodas (tradicionales y de plata), Bautizos y Graduaciones.
+              XV años, Bodas (tradicionales y de plata), Bautizos y Graduaciones.
             </p>
             <ul className="text-sm text-silver/60 space-y-2 text-left w-full border-t border-gray-dark/50 pt-6">
-              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Salon y Banquete</li>
-              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Decoracion e Iluminacion</li>
-              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Entretenimiento y Musica</li>
-              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Fotografia y Video</li>
-              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Coordinacion Total</li>
+              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Salón y Banquete</li>
+              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Decoración e Iluminación</li>
+              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Entretenimiento y Música</li>
+              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Fotografía y Video</li>
+              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Coordinación Total</li>
             </ul>
           </motion.div>
 
-          {/* Eventos Pequenos */}
+          {/* Eventos Pequeños */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -43,14 +43,14 @@ export function Services() {
             className="flex flex-col items-center text-center p-8 border border-gray-dark/50 rounded-2xl hover:border-terracotta/50 transition-colors bg-gradient-to-b from-gray-dark/20 to-transparent"
           >
             <Gift size={40} className="text-terracotta mb-6" strokeWidth={1.5} />
-            <h3 className="text-xl font-serif mb-4 uppercase tracking-wider">Eventos Pequenos</h3>
+            <h3 className="text-xl font-serif mb-4 uppercase tracking-wider">Eventos Pequeños</h3>
             <p className="text-silver/70 text-sm mb-6 leading-relaxed">
-              Baby shower, Revelacion de genero, Despedidas, Cumpleanos y Fiestas infantiles.
+              Baby shower, Revelación de género, Despedidas, Cumpleaños y Fiestas infantiles.
             </p>
             <ul className="text-sm text-silver/60 space-y-2 text-left w-full border-t border-gray-dark/50 pt-6">
-              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Decoracion Tematica</li>
-              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Organizacion Completa</li>
-              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Actividades y Dinamicas</li>
+              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Decoración Temática</li>
+              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Organización Completa</li>
+              <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Actividades y Dinámicas</li>
               <li className="flex items-center gap-2"><CheckCircle2 size={14} className="text-terracotta" /> Detalles Personalizados</li>
             </ul>
           </motion.div>
@@ -67,16 +67,16 @@ export function Services() {
               Destacado
             </div>
             <CalendarCheck size={40} className="text-terracotta mb-6" strokeWidth={1.5} />
-            <h3 className="text-xl font-serif mb-4 uppercase tracking-wider">Coordinacion "Dia B"</h3>
+            <h3 className="text-xl font-serif mb-4 uppercase tracking-wider">Coordinación "Día B"</h3>
             <p className="text-silver/70 text-sm mb-6 leading-relaxed">
               Ideal para clientes que ya organizaron todo, pero necesitan apoyo profesional.
             </p>
             <ul className="text-sm text-silver/60 space-y-3 text-left w-full border-t border-gray-dark/50 pt-6">
-              <li><strong className="text-silver block mb-1">Dia 1 - Preparacion:</strong> Recepcion y confirmacion de proveedores.</li>
-              <li><strong className="text-silver block mb-1">Dia 2 - Ajustes:</strong> Cronograma minuto a minuto.</li>
-              <li><strong className="text-silver block mb-1">Dia 3 - Evento:</strong> Supervision, tiempos y resolucion de imprevistos.</li>
+              <li><strong className="text-silver block mb-1">Día 1 - Preparación:</strong> Recepción y confirmación de proveedores.</li>
+              <li><strong className="text-silver block mb-1">Día 2 - Ajustes:</strong> Cronograma minuto a minuto.</li>
+              <li><strong className="text-silver block mb-1">Día 3 - Evento:</strong> Supervisión, tiempos y resolución de imprevistos.</li>
             </ul>
-            <p className="mt-6 text-terracotta italic text-sm">"Tu disfrutas, yo me encargo de todo"</p>
+            <p className="mt-6 text-terracotta italic text-sm">"Tú disfrutas, yo me encargo de todo"</p>
           </motion.div>
         </div>
 
@@ -84,17 +84,17 @@ export function Services() {
         <div className="mt-32">
           <div className="text-center mb-16">
             <h3 className="text-3xl font-serif font-light mb-4">Detalle de Servicios</h3>
-            <p className="text-silver/60 text-sm max-w-2xl mx-auto">Cuidamos cada aspecto de tu evento para garantizar la perfeccion.</p>
+            <p className="text-silver/60 text-sm max-w-2xl mx-auto">Cuidamos cada aspecto de tu evento para garantizar la perfección.</p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {[
-              { icon: Utensils, title: "Banquete", items: ["Comida o cena", "Menu infantil", "Bebidas y cocteleria"] },
-              { icon: Music, title: "Audio e Iluminacion", items: ["Luz ambiental", "Proyeccion", "Pista / estrado"] },
-              { icon: Sparkles, title: "Decoracion", items: ["Tematica", "Centros de mesa", "Letras grandes"] },
-              { icon: Camera, title: "Entretenimiento", items: ["Musica en vivo", "Animadores", "Cabina 360"] },
-              { icon: Baby, title: "Area de Ninos", items: ["Inflables", "Menu especial", "Cuidado"] },
-              { icon: Gift, title: "Extras", items: ["Recuerditos", "Carritos de dulces", "Kit de bano"] }
+              { icon: Utensils, title: "Banquete", items: ["Comida o cena", "Menú infantil", "Bebidas y coctelería"] },
+              { icon: Music, title: "Audio e Iluminación", items: ["Luz ambiental", "Proyección", "Pista / estrado"] },
+              { icon: Sparkles, title: "Decoración", items: ["Temática", "Centros de mesa", "Letras grandes"] },
+              { icon: Camera, title: "Entretenimiento", items: ["Música en vivo", "Animadores", "Cabina 360"] },
+              { icon: Baby, title: "Área de Niños", items: ["Inflables", "Menú especial", "Cuidado"] },
+              { icon: Gift, title: "Extras", items: ["Recuerditos", "Carritos de dulces", "Kit de baño"] }
             ].map((category, idx) => (
               <motion.div 
                 key={idx}

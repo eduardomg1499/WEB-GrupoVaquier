@@ -9,13 +9,13 @@ export function Consulting() {
           
           {/* Left Column - Sticky Header */}
           <div className="lg:w-1/3 lg:sticky lg:top-32">
-            <p className="text-terracotta text-sm uppercase tracking-[0.2em] font-semibold mb-4">Consultoria Turistica</p>
+            <p className="text-terracotta text-sm uppercase tracking-[0.2em] font-semibold mb-4">Consultoría Turística</p>
             <h2 className="text-4xl md:text-5xl font-serif font-light leading-tight mb-6">
               Impulsa tu <br />
-              <span className="italic text-silver/80">Negocio Turistico</span>
+              <span className="italic text-silver/80">Negocio Turístico</span>
             </h2>
             <p className="text-silver/70 text-sm leading-relaxed mb-8">
-              No solo organizamos eventos, tambien ayudamos a que los negocios turisticos crezcan, se ordenen y generen mas ingresos. Analizamos tu empresa a fondo para detectar que esta fallando y convertirlo en oportunidades reales de crecimiento.
+              No solo organizamos eventos, también ayudamos a que los negocios turísticos crezcan, se ordenen y generen más ingresos. Analizamos tu empresa a fondo para detectar qué está fallando y convertirlo en oportunidades reales de crecimiento.
             </p>
             <div className="bg-terracotta/10 border border-terracotta/20 p-6 rounded-xl">
               <p className="text-terracotta font-serif italic text-lg mb-2">Mi objetivo es claro:</p>
@@ -41,20 +41,20 @@ export function Consulting() {
                 <div>
                   <h3 className="text-2xl font-serif mb-4">Crecimiento de Negocios</h3>
                   <p className="text-silver/70 text-sm mb-6 leading-relaxed">
-                    Estrategias integrales para empresas turisticas, ecoturisticas, restaurantes y hoteles. Ideal si tu negocio esta estancado o quieres escalar.
+                    Estrategias integrales para empresas turísticas, ecoturísticas, restaurantes y hoteles. Ideal si tu negocio está estancado o quieres escalar.
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-silver/60">
                     <ul className="space-y-2 list-disc list-inside">
-                      <li>Organizacion y reestructura</li>
-                      <li>Gestion de personal y liderazgo</li>
+                      <li>Organización y reestructura</li>
+                      <li>Gestión de personal y liderazgo</li>
                       <li>Estrategias de marketing</li>
                       <li>Manejo de temporadas</li>
                     </ul>
                     <ul className="space-y-2 list-disc list-inside">
-                      <li>Optimizacion de procesos</li>
-                      <li>Herramientas de automatizacion</li>
+                      <li>Optimización de procesos</li>
+                      <li>Herramientas de automatización</li>
                       <li>Protocolos de seguridad</li>
-                      <li>Analisis de mercado</li>
+                      <li>Análisis de mercado</li>
                     </ul>
                   </div>
                 </div>
@@ -76,14 +76,14 @@ export function Consulting() {
                   <Briefcase size={24} className="text-terracotta" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-serif mb-4">Planificacion y Desarrollo de Proyectos</h3>
+                  <h3 className="text-2xl font-serif mb-4">Planificación y Desarrollo de Proyectos</h3>
                   <p className="text-silver/70 text-sm mb-6 leading-relaxed">
-                    De la idea a la realidad operativa. Transformamos conceptos en proyectos turisticos rentables y sostenibles mediante una metodologia integral.
+                    De la idea a la realidad operativa. Transformamos conceptos en proyectos turísticos rentables y sostenibles mediante una metodología integral.
                   </p>
                   <ul className="space-y-4 text-sm text-silver/60">
-                    <li><strong className="text-silver">Estudios de Viabilidad:</strong> Analisis profundo de mercado y competencia.</li>
-                    <li><strong className="text-silver">Optimizacion de Espacios Publicos:</strong> Evaluacion y diseno estrategico (especialidad en Centros Culturales).</li>
-                    <li><strong className="text-silver">Puesta en Marcha:</strong> Gestion del desarrollo paso a paso, desde planeacion hasta ejecucion.</li>
+                    <li><strong className="text-silver">Estudios de Viabilidad:</strong> Análisis profundo de mercado y competencia.</li>
+                    <li><strong className="text-silver">Optimización de Espacios Públicos:</strong> Evaluación y diseño estratégico (especialidad en Centros Culturales).</li>
+                    <li><strong className="text-silver">Puesta en Marcha:</strong> Gestión del desarrollo paso a paso, desde planeación hasta ejecución.</li>
                   </ul>
                 </div>
               </div>
@@ -104,14 +104,14 @@ export function Consulting() {
                   <Map size={24} className="text-terracotta" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-serif mb-4">Diseno de Rutas y Experiencias Turisticas</h3>
+                  <h3 className="text-2xl font-serif mb-4">Diseño de Rutas y Experiencias Turísticas</h3>
                   <p className="text-silver/70 text-sm mb-6 leading-relaxed">
-                    Creacion de productos que cautivan al viajero. Disenamos servicios y paquetes a la medida que elevan el valor de tu destino o empresa.
+                    Creación de productos que cautivan al viajero. Diseñamos servicios y paquetes a la medida que elevan el valor de tu destino o empresa.
                   </p>
                   <ul className="space-y-4 text-sm text-silver/60">
-                    <li><strong className="text-silver">Ingenieria de Rutas:</strong> Creacion de itinerarios logisticamente eficientes y atractivos.</li>
-                    <li><strong className="text-silver">Empaquetado de Servicios:</strong> Estructuracion de ofertas que combinan transporte, actividades y servicios.</li>
-                    <li><strong className="text-silver">Curaduria de Experiencias:</strong> Desarrollo de servicios de guia y actividades unicas.</li>
+                    <li><strong className="text-silver">Ingeniería de Rutas:</strong> Creación de itinerarios logísticamente eficientes y atractivos.</li>
+                    <li><strong className="text-silver">Empaquetado de Servicios:</strong> Estructuración de ofertas que combinan transporte, actividades y servicios.</li>
+                    <li><strong className="text-silver">Curaduría de Experiencias:</strong> Desarrollo de servicios de guía y actividades únicas.</li>
                   </ul>
                 </div>
               </div>
