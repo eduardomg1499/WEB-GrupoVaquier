@@ -17,7 +17,7 @@ export function About() {
             <div className="aspect-[3/4] rounded-2xl overflow-hidden relative">
               <img 
                 src="https://raw.githubusercontent.com/eduardomg1499/img-web-GrupoVaquier/main/vaquier.jpeg" 
-                alt="Ariadne Rivas Vaquier" 
+                alt="Ariadne Vaquier" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
               />
@@ -33,7 +33,7 @@ export function About() {
           {/* Content Side */}
           <div className="w-full md:w-1/2">
             <p className="text-terracotta text-sm uppercase tracking-[0.2em] font-semibold mb-4">Quiénes Somos</p>
-            <h2 className="text-4xl md:text-5xl font-serif font-light mb-2">Ariadne Rivas Vaquier</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-light mb-2">Ariadne Vaquier</h2>
             <p className="text-silver/60 text-sm uppercase tracking-widest mb-8">Directora de Grupo Vaquier</p>
             
             <div className="space-y-6 text-sm text-silver/80 leading-relaxed mb-10">
