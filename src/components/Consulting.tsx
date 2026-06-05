@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { TrendingUp, Map, Briefcase } from 'lucide-react';
+import { TrendingUp, Map, Briefcase, Share2 } from 'lucide-react';
 
 export function Consulting() {
   return (
@@ -9,17 +9,17 @@ export function Consulting() {
           
           {/* Left Column - Sticky Header */}
           <div className="lg:w-1/3 lg:sticky lg:top-32">
-            <p className="text-terracotta text-sm uppercase tracking-[0.2em] font-semibold mb-4">Consultoría Turística</p>
+            <p className="text-terracotta text-sm uppercase tracking-[0.2em] font-semibold mb-4">Consultoría & Presencia Digital</p>
             <h2 className="text-4xl md:text-5xl font-serif font-light leading-tight mb-6">
               Impulsa tu <br />
-              <span className="italic text-silver/80">Negocio Turístico</span>
+              <span className="italic text-silver/80">Negocio o Marca</span>
             </h2>
             <p className="text-silver/70 text-sm leading-relaxed mb-8">
-              No solo organizamos eventos, también ayudamos a que los negocios turísticos crezcan, se ordenen y generen más ingresos. Analizamos tu empresa a fondo para detectar qué está fallando y convertirlo en oportunidades reales de crecimiento.
+              No solo organizamos eventos, también ayudamos a que los negocios turísticos, gastronómicos y de servicios crezcan, se ordenen y conecten digitalmente con sus clientes. Diseñamos estrategias operativas y optimizamos tu presencia en redes sociales para convertirlas en oportunidades reales de ventas.
             </p>
             <div className="bg-terracotta/10 border border-terracotta/20 p-6 rounded-xl">
               <p className="text-terracotta font-serif italic text-lg mb-2">Mi objetivo es claro:</p>
-              <p className="text-sm text-silver/90">Convertir tu negocio en una empresa organizada, rentable y lista para crecer.</p>
+              <p className="text-sm text-silver/90">Convertir tu presencia física y digital en una marca organizada, atractiva y altamente rentable.</p>
             </div>
           </div>
 
@@ -113,6 +113,41 @@ export function Consulting() {
                     <li><strong className="text-silver">Empaquetado de Servicios:</strong> Estructuración de ofertas que combinan transporte, actividades y servicios.</li>
                     <li><strong className="text-silver">Curaduría de Experiencias:</strong> Desarrollo de servicios de guía y actividades únicas.</li>
                   </ul>
+                </div>
+              </div>
+            </motion.div>
+
+            <div className="w-full h-[1px] bg-gray-dark/50"></div>
+
+            {/* Service 4 */}
+            <motion.div 
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="group"
+            >
+              <div className="flex items-start gap-6">
+                <div className="w-16 h-16 rounded-full border border-gray-dark flex items-center justify-center shrink-0 group-hover:border-terracotta transition-colors">
+                  <Share2 size={24} className="text-terracotta" strokeWidth={1.5} />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-serif mb-4">Community Management & Redes Sociales</h3>
+                  <p className="text-silver/70 text-sm mb-6 leading-relaxed">
+                    Especializado en marcas del sector gastronómico, hotelero, turístico y organizadores de eventos. Conectamos tu negocio con el público ideal a través de narrativas atractivas y un diseño visual armónico.
+                  </p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-silver/60">
+                    <ul className="space-y-2 list-disc list-inside">
+                      <li>Creación de contenido para Instagram, TikTok y Facebook</li>
+                      <li>Copywriting profesional y storytelling</li>
+                      <li>Gestión de comunidad y respuesta rápida interactiva</li>
+                    </ul>
+                    <ul className="space-y-2 list-disc list-inside">
+                      <li>Calendario y planeación estratégica mensual</li>
+                      <li>Diseño de identidad visual para feeds e historias</li>
+                      <li>Estrategias de interacción con marcas locales</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </motion.div>
